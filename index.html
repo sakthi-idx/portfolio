@@ -9,10 +9,10 @@
 
 <body class="bg-gray-900">
 
-    <nav id="nav">
+    <nav id="nav" class="flex justify-center my-5 container mx-auto px-4 pt-1 relative ">
         <div class="flex ">
-            <h1 class="text-white text-4xl pl-20 pt-1">Sakthi<samp class="text-blue-800 font-bold">.IDX</samp></h1>
-            <div class=" pl-36 pt-3">
+            <h1 class="flex text-white text-4xl pl-20 pt-1">Sakthi<samp class="text-blue-800 font-bold pt-1">.IDX</samp></h1>
+            <div class=" flex justify-center pl-36 pt-3">
                 <ul class="text-white text-lg flex gap-10">
                     <a href="#Home" class="text-white hover:text-blue-700 cursor-pointer">Home</a>
                     <a href="#About Me" class="text-white hover:text-blue-700 cursor-pointer">About</a>
@@ -22,14 +22,14 @@
                 </ul>
             </div>
  
-            <div class="flex pl-60 pt-1">
+            <div class="flex justify-end pl-60 pt-1">
                 <button class="text-blue-800 rounded-2xl px-2 py-1 border-blue-800 border-4 bg-gray-900 hover:text-white text-lg">Contact me</button>
             </div>
         </div>
     </nav>
 
     <main>
-        <div id="Home" class="flex">
+        <div id="Home" class="flex container mx-auto px-4 relative">
 
             <div class="pl-20 pt-60">
                 <h1 class="text-white text-2xl">Hi,There</h1> <br>
@@ -69,13 +69,13 @@
 
         </div>
 
-        <div>
+        <div id="About Me" class="container mx-auto px-4 relative">
 
             <div class="flex justify-center py-10">
                 <h1 class="text-white text-4xl font-bold">About <span class="text-blue-800">Me</span></h1>
             </div>
 
-            <div id="About Me" class=" pt-20 flex gap-20">
+            <div  class=" pt-20 flex gap-20">
 
                 <div class=" pl-60 pt-5 ">
                     <img class="h-full w-96"  src="./Weeknd.png" alt="abel">
@@ -234,31 +234,37 @@
         
         </div>
 
-        <div id="Contact Me" class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        
+        <div id="Contact Me">
 
-            <div class="flex justify-center py-20 pb-50">
-                <h1 class="text-white text-5xl font-bold">Contact <span class="text-blue-800">Me</span></h1>
-            </div>
+            <div class="container mx-auto px-4 relative" > 
 
-                <div>
-                    <label for="Name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
-                    <input type="text" id="Name" class="block p-3 w-full text-sm text-white bg-gray-800 rounded-lg border-4 border-blue-800   boxshadow" placeholder="Your Name" required>
-                </div>
-                 
-                <div>
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Email Address..." required>
-                </div>
-                
-                <div class="sm:col-span-2">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Write Message Here..."></textarea>
+                <div class="flex justify-center py-20 pb-50">
+                    <h1 class="text-white text-5xl font-bold">Contact <span class="text-blue-800">Me</span></h1>
                 </div>
 
-                <button type="button" data-te-ripple-init data-te-ripple-color="light" class="mb-6 inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Send </button>
-            
-            </form>
-        </div>                             
+                <div class="flex flex-wrap -mx-4" > 
+
+                    <div class="mx-auto p-4 w-full lg:w-8/12"> 
+ 
+                        
+                        <form> 
+                            <div class="mb-6"> 
+                                <input class=" bg-gray-800 rounded-xl  border-blue-800 border-4 px-5 py-3 text-white w-full" placeholder="Your Name"> 
+                            </div>  
+
+                            <div class="mb-6"> 
+                                <input class=" bg-gray-800 rounded-xl  border-blue-800 border-4 px-5 py-3 text-white w-full" placeholder="Enter Address" type="email"> 
+                            </div>                                             
+                            <div class="mb-6"> 
+                                <textarea rows="6" class=" bg-gray-800 rounded-xl  border-blue-800 border-4 px-5 py-3 text-white w-full" placeholder="Write Your Message ....."></textarea> 
+                            </div>                                             
+                            <button type="submit" class="rounded-xl bg-blue-700 font-medium hover:bg-blue-600 inline-block px-6 py-3 text-center text-white uppercase w-full">Submit</button>                                             
+                        </form>                                         
+                    </div>                                     
+                </div>                                 
+            </div>                             
+        </div>                         
 
         
 
