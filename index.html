@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+    <link onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=DM+Sans:wght@500;700&amp;display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
-<body class="bg-gray-900">
+<body class="bg-gray-900 items-center relative font-[JetBrains Mono]">
 
-    <header class=" flex justify-between items-center">
-        <nav id="nav" class="border-b border-red-800/10 flex w-screen justify-center ">
+    
+        <nav id="nav" class="bg-slate-600 top-0 fixed border-b-2 border-gray-500 flex w-screen justify-center ">
             <div class=" flex gap-60">
-                <h1 class="flex text-white text-4xl pl-1 py-1">Sakthi<span class="text-blue-800 font-bold">.IDX</span></h1>
+                <h1 class="flex text-white text-4xl font-bold pl-1 py-1">Sakthi<span class="text-blue-800 font-bold">.IDX</span></h1>
                 <div class=" flex justify-center  py-2">
                     <ul class="text-white items-center text-lg flex gap-10">
                         <a href="#Home" class="text-white hover:text-blue-700 cursor-pointer">Home</a>
@@ -28,10 +29,13 @@
                 </div>
             </div>
         </nav>
-    </header>
+   ]
+       
+    
 
-    <main>
-        <div id="Home" class="h-screen flex container mx-auto px-4 relative">
+    <main class="h-screen justify-between items-center relative">
+        
+        <div id="Home" class=" flex container mx-auto px-4 relative">
 
             <div class="pl-20 pt-44">
                 <h1 class="text-white text-2xl">Hi,There</h1> <br>
@@ -71,7 +75,7 @@
 
         </div>
 
-        <div id="About Me" class="h-screen container mx-auto px-4 relative">
+        <div id="About Me" class=" container mx-auto px-4 relative">
 
             <div class="flex justify-center pt-5 pb-2">
                 <h1 class="text-white text-4xl font-bold">About <span class="text-blue-800">Me</span></h1>
@@ -110,8 +114,10 @@
 
             </div>
 
-        <div class=" pt-2" id="My Portfolio">
-            
+        </div>
+
+        <div id="My Portfolio" class=" mx-auto container justify-between items-center">
+
             <div class="flex justify-center py-10">
                 <h1 class="text-white text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
             </div>
@@ -182,7 +188,7 @@
 
         </div>
 
-        <div id="My Service">
+        <div id="My Service" class="mx-auto my-auto container">
 
             <div class="flex justify-center py-20 pb-50">
                 <h1 class="text-white text-5xl font-bold">My<span class="text-blue-800">Service</span></h1>
