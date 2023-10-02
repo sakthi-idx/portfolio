@@ -2,7 +2,9 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      'JetBrainsmono':['"JetBrains Mono"','sans-serf']
+    },
   },
   plugins: [],
 }
