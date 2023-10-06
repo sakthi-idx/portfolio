@@ -1,12 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* In your CSS file (e.g., tailwind.css) */
-@font-face {
-    font-family: 'JetBrains Mono';
-    src: url('/path-to-your-fonts/JetBrainsMono-Regular.woff2') format('woff2'); /* Update the path to your font file */
-    font-weight: normal;
-    font-style: normal;
-  }  
-  
