@@ -2,5 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* In your CSS file (e.g., tailwind.css) */
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/path-to-your-fonts/JetBrainsMono-Regular.woff2') format('woff2'); /* Update the path to your font file */
+    font-weight: normal;
+    font-style: normal;
+  }  
   
