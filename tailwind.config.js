@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'jetbrains-mono': ['JetBrains Mono', 'monospace'],
+        jets: ['JetBrains+Mono'],
       },
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+      require('flowbite/plugin')
+  ],
 }
 
